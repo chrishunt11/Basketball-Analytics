@@ -17,6 +17,7 @@ In this dataset there are 65698 rows and 55 features.
 
 ### Data Dictionary
 
+** insert dictionary here **
 
 ### To prepare this datam the data was cleaned, and the following processes were performed:
 
@@ -35,9 +36,9 @@ In this dataset there are 65698 rows and 55 features.
 - Taking a look at these graphs gave a good understanding of the types of shots taken over the years and the percentage they were made.
 - This also gave a better understanding of more field goals made means more points scored.
 
-** insert graph here **
+![3pt-per-year](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/ee440553-67a6-4bb5-887f-a2ce63687875)
 
-description of graph here
+As you can see from the graphs above, as the three pointers attempted have increased over the years so have the points, percentage of shots taken, and wins per 3 point shots taken.
 
 ### Machine Learning Using the following Models:
   - KNN Model
