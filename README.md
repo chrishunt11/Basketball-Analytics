@@ -66,9 +66,9 @@ description of graph here
 
   - Decision Tree Classifier Model (Testing Set):
     
-               precision / recall / f1-score
+                    precision / recall / f1-score
     
-    0 (loss):     .68    /   .68   /   .68
+        0 (loss):     .68    /   .68   /   .68
     
     1 (win):      .78    /   .78   /   .78
     
