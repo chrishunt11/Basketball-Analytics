@@ -67,9 +67,13 @@ description of graph here
   - Decision Tree Classifier Model (Testing Set):
                precision / recall / f1-score
     0 (loss):     .68    /   .68   /   .68
+    
     1 (win):      .78    /   .78   /   .78
+    
     accuracy:                      /   .74
+    
     macro avg:    .73    /   .73   /   .73
+    
     weighted avg: .74    /   .74   /   .74
 
   - Tuned Decision Tree Classifier Model (Testing Set):
