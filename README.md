@@ -141,4 +141,13 @@ Model Performance
 
 ## Limitations & Next Steps
 
-- From here, a student could look into 
+- There are some limitations with this data, including pace of the game, playstyle and the overall league improving in skill as the years go on. This model can only predict what data it was given.
+- For another student, some of the next steps that could be taken are going further in depth on defensive stats and how much of an impact defense plays when it comes to winning games
+
+### For further information
+
+
+For any additional questions, please contact:
+- Christopher Hunt Jr.
+- cjhunt592.1@gmail.com
+
