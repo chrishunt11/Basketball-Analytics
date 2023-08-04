@@ -28,18 +28,21 @@ In this dataset there are 65698 rows and 55 features.
 
 ![3pt-year](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/012551ae-aa68-40a7-b848-3c11bc7ec00d)
 
-The top 5 three pointers attempted seasons were:
-  2021:    `56967.0`
-  2022:    `46646.0`
-  2019:    `41917.0`
-  2018:    `39849.0`
-  2017:    `37685.0`
-The bottom 5 three pointers attempted seasons were:
-  1986:     `3397.0`
-  1987:     `4526.0`
-  1988:     `5433.0`
-  1989:     `7724.0`
-  1990:     `7826.0`
+The top 5 three pointers attempted seasons are as follows:
+
+  - 2021:    `56,967.0`
+  - 2022:    `46,646.0`
+  - 2019:    `41,917.0`
+  - 2018:    `39,849.0`
+  - 2017:    `37,685.0`
+  
+The bottom 5 three pointers attempted seasons are as follows:
+
+  - 1986:     `3,397.0`
+  - 1987:     `4,526.0`
+  - 1988:     `5,433.0`
+  - 1989:     `7,724.0`
+  - 1990:     `7,826.0`
 
 #### Explanitory Data Analysis
 
