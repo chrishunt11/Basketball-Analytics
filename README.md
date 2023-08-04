@@ -26,7 +26,7 @@ In this dataset there are 65698 rows and 55 features.
 - During exploratory data analysis, a histogram and a countplot was visualized for all columns.
 - This gave a good baseline for the stats amongst all Home games played.
 
-- ** insert graph here **
+![3pt-per-year](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/73c4680c-0fd3-46a7-8582-a4d4e4a75bec)
 
   description of graph here
 
