@@ -49,33 +49,30 @@ description of graph here
 
 ## Models Evalustaed & Results:
   - KNN Model (Testing Set):
-               precision / recall / f1-score
-    0 (loss):     .76    /   .69   /   .72
-    1 (win):      .80    /   .85   /   .82
-    accuracy:                      /   .78
-    macro avg:    .78    /   .77   /   .77
-    weighted avg: .78    /   .78   /   .78
+    
+                   precision / recall / f1-score
+        0 (loss):     .76    /   .69   /   .72
+        1 (win):      .80    /   .85   /   .82
+        accuracy:                      /   .78
+        macro avg:    .78    /   .77   /   .77
+        weighted avg: .78    /   .78   /   .78
   
   - KNN Tuned Model (Testing Set):
-               precision / recall / f1-score
-    0 (loss):     .81    /   .70   /   .75
-    1 (win):      .81    /   .89   /   .85
-    accuracy:                      /   .81
-    macro avg:    .81    /   .79   /   .80
-    weighted avg: .81    /   .81   /   .81
+    
+                   precision / recall / f1-score
+        0 (loss):     .81    /   .70   /   .75
+        1 (win):      .81    /   .89   /   .85
+        accuracy:                      /   .81
+        macro avg:    .81    /   .79   /   .80
+        weighted avg: .81    /   .81   /   .81
 
   - Decision Tree Classifier Model (Testing Set):
     
                     precision / recall / f1-score
-    
         0 (loss):     .68    /   .68   /   .68
-    
         1 (win):      .78    /   .78   /   .78
-    
         accuracy:                      /   .74
-    
         macro avg:    .73    /   .73   /   .73
-    
         weighted avg: .74    /   .74   /   .74
 
   - Tuned Decision Tree Classifier Model (Testing Set):
@@ -88,35 +85,39 @@ description of graph here
         weighted avg: .77    /   .77   /   .77
 
   - XGBoost Model (Testing Set):
-               precision / recall / f1-score
-    0 (loss):     .82    /   .78   /   .80
-    1 (win):      .85    /   .88   /   .87
-    accuracy:                      /   .84
-    macro avg:    .84    /   .83   /   .83
-    weighted avg: .84    /   .84   /   .84
+    
+                   precision / recall / f1-score
+        0 (loss):     .82    /   .78   /   .80
+        1 (win):      .85    /   .88   /   .87
+        accuracy:                      /   .84
+        macro avg:    .84    /   .83   /   .83
+        weighted avg: .84    /   .84   /   .84
 
   - LightGMB Model (Testing Set):
-               precision / recall / f1-score
-    0 (loss):     .82    /   .78   /   .80
-    1 (win):      .86    /   .88   /   .87
-    accuracy:                      /   .84
-    macro avg:    .84    /   .83   /   .83
-    weighted avg: .84    /   .84   /   .84
+
+                   precision / recall / f1-score
+        0 (loss):     .82    /   .78   /   .80
+        1 (win):      .86    /   .88   /   .87
+        accuracy:                      /   .84
+        macro avg:    .84    /   .83   /   .83
+        weighted avg: .84    /   .84   /   .84
 
   - Logisitic Regression Model (Testing Set):
-               precision / recall / f1-score
-    0 (loss):     .82    /   .80   /   .81
-    1 (win):      .86    /   .88   /   .87
-    accuracy:                      /   .85
-    macro avg:    .84    /   .84   /   .84
-    weighted avg: .85    /   .85   /   .85
+
+                   precision / recall / f1-score
+        0 (loss):     .82    /   .80   /   .81
+        1 (win):      .86    /   .88   /   .87
+        accuracy:                      /   .85
+        macro avg:    .84    /   .84   /   .84
+        weighted avg: .85    /   .85   /   .85
 
   - Tuned Logisitic Regression Model (Testing Set):
-               precision / recall / f1-score
-    0 (loss):     .82    /   .80   /   .81
-    1 (win):      .86    /   .88   /   .87
-    accuracy:                      /   .85
-    macro avg:    .84    /   .84   /   .84
-    weighted avg: .85    /   .85   /   .85
+
+                   precision / recall / f1-score
+        0 (loss):     .82    /   .80   /   .81
+        1 (win):      .86    /   .88   /   .87
+        accuracy:                      /   .85
+        macro avg:    .84    /   .84   /   .84
+        weighted avg: .85    /   .85   /   .85
 
 - The Final Model chosen was the 'Tuned Logisitic Regression Model' with the 
