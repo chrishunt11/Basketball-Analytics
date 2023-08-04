@@ -70,21 +70,22 @@ description of graph here
     
         0 (loss):     .68    /   .68   /   .68
     
-    1 (win):      .78    /   .78   /   .78
+        1 (win):      .78    /   .78   /   .78
     
-    accuracy:                      /   .74
+        accuracy:                      /   .74
     
-    macro avg:    .73    /   .73   /   .73
+        macro avg:    .73    /   .73   /   .73
     
-    weighted avg: .74    /   .74   /   .74
+        weighted avg: .74    /   .74   /   .74
 
   - Tuned Decision Tree Classifier Model (Testing Set):
-               precision / recall / f1-score
-    0 (loss):     .72    /   .69   /   .71
-    1 (win):      .80    /   .82   /   .81
-    accuracy:                      /   .77
-    macro avg:    .76    /   .76   /   .76
-    weighted avg: .77    /   .77   /   .77
+    
+                   precision / recall / f1-score
+        0 (loss):     .72    /   .69   /   .71
+        1 (win):      .80    /   .82   /   .81
+        accuracy:                      /   .77
+        macro avg:    .76    /   .76   /   .76
+        weighted avg: .77    /   .77   /   .77
 
   - XGBoost Model (Testing Set):
                precision / recall / f1-score
