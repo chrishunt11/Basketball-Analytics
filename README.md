@@ -1,3 +1,5 @@
+![nba-logo](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/585476e4-7dfd-4f3c-a530-c7ba8c322ee1)
+
 # NBA Home Games
 ## Analyzing Home Wins
 
