@@ -42,7 +42,7 @@ description of graph here
   - Tuned KNN Model
   - Decision Tree Classifier
   - Tuned Decision Tree Classifier
-  - -XGBoost
+  - XGBoost
   - LightGMB
   - Logisitic Regression
   - Tuned Logisitic Regression
