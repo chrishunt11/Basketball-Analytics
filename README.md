@@ -120,4 +120,23 @@ description of graph here
         macro avg:    .84    /   .84   /   .84
         weighted avg: .85    /   .85   /   .85
 
-- The Final Model chosen was the 'Tuned Logisitic Regression Model' with the 
+- The Final Model chosen was the 'Tuned Logisitic Regression Model' with the parameters of 'logisiticregression__C': '100' and 'logisticregression__penalty': 'l2'
+- For the testing model the recall accounted for 80% of losses and 88% of wins.
+- The precision accounted for 82% of losses and 86% of wins.
+- The macro average accounted for 84% of losses and 84% of wins.
+
+Using this model to make predictions on which team has won based on their stats is fairly reliable. Using solely the stats doesn't define the entire game but gives a pretty good outlook on whether a team will win or lose. 
+
+## Recommendations:
+
+- After visualizing that the 3 point percentage has increased each year even after increasing the amount of 3's taken shows that teams are becoming more efficient. One thing teams may want to do is increase the amount of 3 pointers taken to increase the total amount of points.
+
+- There is a strong correlation between field goals made and total points. Teams may want to look into putting up more shots and with the accuracy of the 3 point shot increasing as well they might want to look to put up more 3 pointers.
+
+Model Performance
+- Overall, the best model is definitely the Tuned Logistic Regression Model. The Model performed fairly well and performed much better than the other models.
+
+
+## Limitations & Next Steps
+
+- From here, a student could look into 
