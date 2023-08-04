@@ -26,9 +26,20 @@ In this dataset there are 65698 rows and 55 features.
 - During exploratory data analysis, a histogram and a countplot was visualized for all columns.
 - This gave a good baseline for the stats amongst all Home games played.
 
-![3pt-per-year](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/73c4680c-0fd3-46a7-8582-a4d4e4a75bec)
+![3pt-year](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/012551ae-aa68-40a7-b848-3c11bc7ec00d)
 
-  description of graph here
+The top 5 three pointers attempted seasons were:
+  2021:    `56967.0`
+  2022:    `46646.0`
+  2019:    `41917.0`
+  2018:    `39849.0`
+  2017:    `37685.0`
+The bottom 5 three pointers attempted seasons were:
+  1986:     `3397.0`
+  1987:     `4526.0`
+  1988:     `5433.0`
+  1989:     `7724.0`
+  1990:     `7826.0`
 
 #### Explanitory Data Analysis
 
