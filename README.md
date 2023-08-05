@@ -18,7 +18,7 @@ In this dataset there are 65698 rows and 55 features.
 
 ### Data Dictionary
 
-** insert dictionary here **
+https://docs.google.com/document/d/1GjDnyGpwIL14WoHZABzBqnB7sjCTNyHZxJRKZSyqwlg/edit?usp=sharing
 
 ###### **To prepare the data, a cleaning process was performed, followed by Exploratory Data Analysis (EDA).**
 
