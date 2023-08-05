@@ -12,8 +12,6 @@ Business Challenge:
 
 The primary objective of NBA teams is to optimize their performance by winning as many games as possible. However, navigating the constantly evolving game landscape poses a challenge in determining the most efficient approach. Decisions like increasing 3-point attempts or prioritizing shot quality are pivotal in achieving success. This project aims to address these questions to enhance team performance.
 
-Data Source:
-
 ### Data Source:
 
 NBA Database: https://www.kaggle.com/datasets/wyattowalsh/basketball
