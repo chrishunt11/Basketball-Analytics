@@ -154,7 +154,7 @@ The 'Tuned Logistic Regression Model' outperformed other models, demonstrating i
 
 It's essential to acknowledge the limitations of this data, such as the influence of game pace and playstyle on team performance. For future projects, exploring defensive statistics and their impact on winning games could offer valuable insights.
 
-#### For further information
+#### For further information:
 
 - Christopher Hunt Jr.
 - cjhunt592.1@gmail.com
