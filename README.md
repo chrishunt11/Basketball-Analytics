@@ -156,36 +156,6 @@ It's essential to acknowledge the limitations of this data, such as the influenc
 
 #### For further information
 
-For any additional inquiries, please contact:
-
-
-
-- The Final Model chosen was the 'Tuned Logisitic Regression Model' with the parameters of 'logisiticregression__C': '100' and 'logisticregression__penalty': 'l2'
-- For the testing model the recall accounted for 80% of losses and 88% of wins.
-- The precision accounted for 82% of losses and 86% of wins.
-- The macro average accounted for 84% of losses and 84% of wins.
-
-Using this model to make predictions on which team has won based on their stats is fairly reliable. Using solely the stats doesn't define the entire game but gives a pretty good outlook on whether a team will win or lose. 
-
-## Recommendations:
-
-- After visualizing that the 3 point percentage has increased each year even after increasing the amount of 3's taken shows that teams are becoming more efficient. One thing teams may want to do is increase the amount of 3 pointers taken to increase the total amount of points.
-
-- There is a strong correlation between field goals made and total points. Teams may want to look into putting up more shots and with the accuracy of the 3 point shot increasing as well they might want to look to put up more 3 pointers.
-
-Model Performance
-- Overall, the best model is definitely the Tuned Logistic Regression Model. The Model performed fairly well and performed much better than the other models.
-
-
-## Limitations & Next Steps
-
-- There are some limitations with this data, including pace of the game, playstyle and the overall league improving in skill as the years go on. This model can only predict what data it was given.
-- For another student, some of the next steps that could be taken are going further in depth on defensive stats and how much of an impact defense plays when it comes to winning games
-
-### For further information
-
-
-For any additional questions, please contact:
 - Christopher Hunt Jr.
 - cjhunt592.1@gmail.com
 
