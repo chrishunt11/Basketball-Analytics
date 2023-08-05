@@ -48,9 +48,7 @@ The bottom 5 three pointers attempted seasons are as follows:
 
 #### Explanitory Data Analysis
 
-- During explanitory data analysis, countplots of 3 point percentage over the years, 3 pointers attempted over the years, and distribution of points amongst field goals made.
-- Taking a look at these graphs gave a good understanding of the types of shots taken over the years and the percentage they were made.
-- This also gave a better understanding of more field goals made means more points scored.
+Further analysis included countplots illustrating 3-point percentage over the years, 3-pointers attempted over the years, and the distribution of points from field goals made. These graphs shed light on shot trends and their effectiveness over time.
 
 ![3pt-per-year](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/ee440553-67a6-4bb5-887f-a2ce63687875)
 
