@@ -70,7 +70,7 @@ Further analysis included countplots illustrating 3-point percentage over the ye
         macro avg:    .78    /   .77   /   .77
         weighted avg: .78    /   .78   /   .78
   
-  - KNN Tuned Model (Testing Set):
+  - Tuned KNN Model (Testing Set):
     
                    precision / recall / f1-score
         0 (loss):     .81    /   .70   /   .75
