@@ -138,11 +138,11 @@ Further analysis included countplots illustrating 3-point percentage over the ye
 
 
 
-#### **Model Evaluation & Results:**
+### **Model Evaluation & Results:**
 
 Among the evaluated models, the 'Tuned Logistic Regression Model' performed the best, yielding high precision and recall scores for both wins and losses.
 
-## Recommendations:
+## **Recommendations**:
 
 Based on the analysis, teams are encouraged to consider increasing the number of 3-point attempts to enhance their total points, as the 3-point percentage has been increasing over time. Moreover, prioritizing field goals can lead to improved overall point production.
 
