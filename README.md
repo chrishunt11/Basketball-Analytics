@@ -160,3 +160,80 @@ It's essential to acknowledge the limitations of this data, such as the influenc
 - Christopher Hunt Jr.
 - cjhunt592.1@gmail.com
 
+
+
+
+# NBA Home Games: Analyzing Home Wins
+
+## **Author**: Christopher Hunt Jr.
+
+### **Business Challenge:**
+
+The primary objective of NBA teams is to optimize their performance by winning as many games as possible. However, navigating the constantly evolving game landscape poses a challenge in determining the most efficient approach. Decisions like increasing 3-point attempts or prioritizing shot quality are pivotal in achieving success. This project aims to address these questions to enhance team performance.
+
+### **Data Source:**
+
+NBA Database: [https://www.kaggle.com/datasets/wyattowalsh/basketball](https://www.kaggle.com/datasets/wyattowalsh/basketball)
+
+In this dataset, there are 65,698 rows and 55 features.
+
+### **Data Dictionary:**
+
+**Insert data dictionary here**
+
+### **Data Preparation & Exploratory Data Analysis (EDA):**
+
+A thorough data cleaning process was conducted, followed by Exploratory Data Analysis (EDA) to gain valuable insights into home game statistics. Histograms and countplots were used to visualize the data, and particular attention was given to the top 5 seasons with the highest attempted three-pointers and the bottom 5 seasons with the lowest attempted three-pointers.
+
+![3pt-year](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/012551ae-aa68-40a7-b848-3c11bc7ec00d)
+
+**Top 5 three-pointers attempted seasons:**
+
+- 2021: 56,967.0
+- 2022: 46,646.0
+- 2019: 41,917.0
+- 2018: 39,849.0
+- 2017: 37,685.0
+
+**Bottom 5 three-pointers attempted seasons:**
+
+- 1986: 3,397.0
+- 1987: 4,526.0
+- 1988: 5,433.0
+- 1989: 7,724.0
+- 1990: 7,826.0
+
+Further EDA included countplots illustrating 3-point percentage over the years, 3-pointers attempted over the years, and the distribution of points from field goals made. These graphs provided valuable insights into shot trends and their effectiveness over time.
+
+![3pt-per-year](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/ee440553-67a6-4bb5-887f-a2ce63687875)
+
+### **Machine Learning Models:**
+
+To predict home game wins, several machine learning models were utilized, including:
+
+- KNN Model
+- Tuned KNN Model
+- Decision Tree Classifier
+- Tuned Decision Tree Classifier
+- XGBoost
+- LightGMB
+- Logistic Regression
+- Tuned Logistic Regression
+
+### **Models Evaluated & Results:**
+
+The models' performance was assessed using precision, recall, and F1-score for both win and loss classes. Among the evaluated models, the 'Tuned Logistic Regression Model' outperformed others, delivering high precision and recall scores for both wins and losses.
+
+## **Recommendations:**
+
+Based on the analysis, teams are encouraged to consider increasing the number of 3-point attempts to enhance their total points, as the 3-point percentage has been increasing over time. Moreover, prioritizing field goals can lead to improved overall point production. The 'Tuned Logistic Regression Model' proved to be a reliable predictor of game outcomes based on team statistics.
+
+## **Limitations & Next Steps:**
+
+It's important to acknowledge the data limitations, such as the influence of game pace and playstyle on team performance. Future projects could explore defensive statistics and their impact on winning games to gain further valuable insights.
+
+#### **For further information:**
+
+- Christopher Hunt Jr.
+- Email: cjhunt592.1@gmail.com
+
