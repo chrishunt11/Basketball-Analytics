@@ -20,12 +20,13 @@ In this dataset there are 65698 rows and 55 features.
 
 ** insert dictionary here **
 
-### To prepare this datam the data was cleaned, and the following processes were performed:
+### To prepare the data, a cleaning process was performed, followed by Exploratory Data Analysis (EDA).
 
 #### Exploratory Data Analysis
 
-- During exploratory data analysis, a histogram and a countplot was visualized for all columns.
-- This gave a good baseline for the stats amongst all Home games played.
+
+- During EDA, histograms and countplots were visualized for all columns, providing insights into Home game statistics. 
+- Notably, the top 5 seasons with the highest attempted three-pointers were observed, as well as the bottom 5 seasons with the lowest attempted three-pointers.
 
 ![3pt-year](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/012551ae-aa68-40a7-b848-3c11bc7ec00d)
 
