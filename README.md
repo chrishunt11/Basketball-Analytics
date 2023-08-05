@@ -20,9 +20,9 @@ In this dataset there are 65698 rows and 55 features.
 
 ** insert dictionary here **
 
-### **To prepare the data, a cleaning process was performed, followed by Exploratory Data Analysis (EDA).**
+##### **To prepare the data, a cleaning process was performed, followed by Exploratory Data Analysis (EDA).**
 
-#### Exploratory Data Analysis
+#### Exploratory Data Analysis:
 
 
 - During EDA, histograms and countplots were visualized for all columns, providing insights into Home game statistics. 
@@ -46,7 +46,7 @@ The bottom 5 three pointers attempted seasons are as follows:
   - 1989:     `7,724`
   - 1990:     `7,826`
 
-#### Explanitory Data Analysis
+#### Explanitory Data Analysis:
 
 Further analysis included countplots illustrating 3-point percentage over the years, 3-pointers attempted over the years, and the distribution of points from field goals made. These graphs shed light on shot trends and their effectiveness over time.
 
