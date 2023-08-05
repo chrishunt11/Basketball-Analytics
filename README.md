@@ -146,10 +146,6 @@ Among the evaluated models, the 'Tuned Logistic Regression Model' performed the 
 
 Based on the analysis, teams are encouraged to consider increasing the number of 3-point attempts to enhance their total points, as the 3-point percentage has been increasing over time. Moreover, prioritizing field goals can lead to improved overall point production.
 
-Model Performance:
-
-The 'Tuned Logistic Regression Model' outperformed other models, demonstrating its reliability in predicting game outcomes based on team statistics.
-
 ## Limitations & Next Steps:
 
 It's essential to acknowledge the limitations of this data, such as the influence of game pace and playstyle on team performance. For future projects, exploring defensive statistics and their impact on winning games could offer valuable insights.
