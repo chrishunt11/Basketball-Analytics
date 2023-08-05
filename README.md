@@ -3,7 +3,7 @@
 # NBA Home Games
 ## Analyzing Home Wins
 
-**Author**: Christopher Hunt
+**Author**: Christopher Hunt Jr.
 
 
 ### Business Challenge:
