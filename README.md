@@ -7,7 +7,12 @@
 
 ### Business Problem:
 
-The main objective for NBA teams is to win as many games as possible, but the challenge is figuring out the most efficient way possible. Since the game is constantly changing, the most efficient way to win has varied over the years. Should teams shoot more 3's? Should they shoot as many shots as possible regardless if they are good shots or not? Figuring out the answer to these questions is what I am trying to solve.
+
+Business Challenge:
+
+The primary objective of NBA teams is to optimize their performance by winning as many games as possible. However, navigating the constantly evolving game landscape poses a challenge in determining the most efficient approach. Decisions like increasing 3-point attempts or prioritizing shot quality are pivotal in achieving success. This project aims to address these questions to enhance team performance.
+
+Data Source:
 
 ### Data Source:
 
