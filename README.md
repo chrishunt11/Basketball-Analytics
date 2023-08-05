@@ -20,7 +20,7 @@ In this dataset there are 65698 rows and 55 features.
 
 ** insert dictionary here **
 
-To prepare the data, a cleaning process was performed, followed by Exploratory Data Analysis (EDA).
+###### To prepare the data, a cleaning process was performed, followed by Exploratory Data Analysis (EDA).
 
 #### Exploratory Data Analysis
 
