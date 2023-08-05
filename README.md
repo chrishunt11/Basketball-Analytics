@@ -150,7 +150,7 @@ Model Performance:
 
 The 'Tuned Logistic Regression Model' outperformed other models, demonstrating its reliability in predicting game outcomes based on team statistics.
 
-## Limitations & Next Steps
+## Limitations & Next Steps:
 
 It's essential to acknowledge the limitations of this data, such as the influence of game pace and playstyle on team performance. For future projects, exploring defensive statistics and their impact on winning games could offer valuable insights.
 
