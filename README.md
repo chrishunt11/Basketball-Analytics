@@ -54,14 +54,11 @@ Further analysis included countplots illustrating 3-point percentage over the ye
 
 
 ### Machine Learning Using the following Models:
-  - KNN Model
-  - Tuned KNN Model
-  - Decision Tree Classifier
-  - Tuned Decision Tree Classifier
+  - KNN Model (default/tuned)
+  - Decision Tree Classifier (default/tuned)
   - XGBoost
   - LightGMB
-  - Logisitic Regression
-  - Tuned Logisitic Regression
+  - Logisitic Regression (default/tuned)
 
 ## Models Evalustaed & Results:
   - KNN Model (Testing Set):
