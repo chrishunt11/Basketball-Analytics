@@ -52,12 +52,7 @@ Further analysis included countplots illustrating 3-point percentage over the ye
 
 ![3pt-per-year](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/ee440553-67a6-4bb5-887f-a2ce63687875)
 
-Further analysis included countplots illustrating 3-point percentage over the years, 3-pointers attempted over the years, and the distribution of points from field goals made. These graphs shed light on shot trends and their effectiveness over time.
 
-
-
-
-As you can see from the graphs above, as the three pointers attempted have increased over the years so have the points, percentage of shots taken, and wins per 3 point shots taken. After looking at the bottom right graph (3 pointers attempted per season) and the top right graph (points per game per season) there appears to be a correlation when more 3 pointers are attempted more points have been produced.
 ### Machine Learning Using the following Models:
   - KNN Model
   - Tuned KNN Model
