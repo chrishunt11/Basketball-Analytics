@@ -32,19 +32,19 @@ In this dataset there are 65698 rows and 55 features.
 
 The top 5 three pointers attempted seasons are as follows:
 
-  - 2021:    `56,967.0`
-  - 2022:    `46,646.0`
-  - 2019:    `41,917.0`
-  - 2018:    `39,849.0`
-  - 2017:    `37,685.0`
+  - 2021:    `56,967`
+  - 2022:    `46,646`
+  - 2019:    `41,917`
+  - 2018:    `39,849`
+  - 2017:    `37,685`
   
 The bottom 5 three pointers attempted seasons are as follows:
 
-  - 1986:     `3,397.0`
-  - 1987:     `4,526.0`
-  - 1988:     `5,433.0`
-  - 1989:     `7,724.0`
-  - 1990:     `7,826.0`
+  - 1986:     `3,397`
+  - 1987:     `4,526`
+  - 1988:     `5,433`
+  - 1989:     `7,724`
+  - 1990:     `7,826`
 
 #### Explanitory Data Analysis
 
