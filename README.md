@@ -46,7 +46,15 @@ The bottom 5 three pointers attempted seasons are as follows:
 
 ![top-5-teams-3pts-game](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/624544e1-5826-4108-a33f-bd500b046cb3)
 
-The visual aid provided indicates a distinct trend: the leading five teams in the league, recognized for their substantial annual victories, have noticeably increased their frequency of attempting 3-point shots per game. This strategic adjustment underscores their capacity to adapt to evolving competitive dynamics. By incorporating more long-distance shots into their gameplay, these teams aim to capitalize on scoring opportunities and enhance their overall performance on the court.
+
+- The visual aid provided shows a clear trend: 
+  - The top five teams in the league, known for their consistent yearly victories, 
+    - Have significantly increased their 3-point shot attempts per game.
+- This strategic change highlights their ability to adapt to changing competitive dynamics.
+- By incorporating more long-distance shots into their strategy, these teams are trying to:
+  - Take advantage of scoring opportunities and 
+  - Improve their overall on-court performance.
+
 
 #### Explanitory Data Analysis:
 
