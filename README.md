@@ -47,7 +47,7 @@ The bottom 5 three pointers attempted seasons are as follows:
 ![top-5-teams-3pts-game](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/624544e1-5826-4108-a33f-bd500b046cb3)
 
 
-- The visual aid provided shows a clear trend: 
+**The visual aid provided shows a clear trend:**
   - The top five teams in the league, known for their consistent yearly victories, 
     - Have significantly increased their 3-point shot attempts per game.
 - This strategic change highlights their ability to adapt to changing competitive dynamics.
