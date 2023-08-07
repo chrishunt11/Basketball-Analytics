@@ -1,7 +1,7 @@
 ![nba-logo](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/585476e4-7dfd-4f3c-a530-c7ba8c322ee1)
 
-# NBA Home Games
-## Analyzing Home Wins
+# NBA Home Games Analysis
+## Unveiling Patterns in Home Wins
 
 **Author**: Christopher Hunt Jr.
 
@@ -55,14 +55,14 @@ Further analysis included countplots illustrating 3-point percentage over the ye
 ![3pt-per-year](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/ee440553-67a6-4bb5-887f-a2ce63687875)
 
 
-### Machine Learning Using the following Models:
+### Machine Learning Leveraging Multiple Models:
   - KNN Model (default/tuned)
   - Decision Tree Classifier (default/tuned)
   - Logisitic Regression (default/tuned)
   - XGBoost
   - LightGMB
 
-## Models Evalustaed & Results:
+## Evaluated Models & Results:
   - Default KNN Model (Testing Set):
     
                    precision / recall / f1-score
@@ -140,7 +140,7 @@ Further analysis included countplots illustrating 3-point percentage over the ye
 
 
 
-### **Model Evaluation & Results:**
+### ** Suggested Model:**
 
 Among the evaluated models, the 'Tuned Logistic Regression Model' performed the best, yielding high precision and recall scores for both wins and losses.
 
