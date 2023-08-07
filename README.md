@@ -154,6 +154,7 @@ It's essential to acknowledge the limitations of this data, such as the influenc
 
 #### For further information:
 
+For any further inquiries or information, please contact:
 - Christopher Hunt Jr.
 - [LinkedIn](https://www.linkedin.com/in/christopher-hunt-jr)
-- cjhunt592.1@gmail.com
+- Email: cjhunt592.1@gmail.com
