@@ -44,7 +44,7 @@ The bottom 5 three pointers attempted seasons are as follows:
   - 1989:     `7,724`
   - 1990:     `7,826`
 
-![top-5-teams-3pts-game](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/624544e1-5826-4108-a33f-bd500b046cb3)
+![top-5-teams-3pts-game](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/dd386009-973c-4751-895e-8852b33d1b35)
 
 
 **The visual aid provided shows a clear trend:**
