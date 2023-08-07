@@ -46,6 +46,10 @@ The bottom 5 three pointers attempted seasons are as follows:
   - 1989:     `7,724`
   - 1990:     `7,826`
 
+![top-5-teams-3pts-game](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/624544e1-5826-4108-a33f-bd500b046cb3)
+
+The visual aid provided indicates a distinct trend: the leading five teams in the league, recognized for their substantial annual victories, have noticeably increased their frequency of attempting 3-point shots per game. This strategic adjustment underscores their capacity to adapt to evolving competitive dynamics. By incorporating more long-distance shots into their gameplay, these teams aim to capitalize on scoring opportunities and enhance their overall performance on the court.
+
 #### Explanitory Data Analysis:
 
 Further analysis included countplots illustrating 3-point percentage over the years, 3-pointers attempted over the years, and the distribution of points from field goals made. These graphs shed light on shot trends and their effectiveness over time.
