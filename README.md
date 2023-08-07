@@ -157,4 +157,4 @@ It's essential to acknowledge the limitations of this data, such as the influenc
 
 - Christopher Hunt Jr.
 - cjhunt592.1@gmail.com
-- LinkedIn: [christopherhuntjr](https://www.linkedin.com/in/christopherhuntjr)
+- [LinkedIn](https://www.linkedin.com/in/christopher-hunt-jr)
