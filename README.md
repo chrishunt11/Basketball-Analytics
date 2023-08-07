@@ -160,9 +160,9 @@ Based on the analysis, teams are encouraged to consider increasing the number of
 
 It's essential to acknowledge the limitations of this data, such as the influence of game pace and playstyle on team performance. For future projects, exploring defensive statistics and their impact on winning games could offer valuable insights.
 
-#### For further information:
+#### Contact information:
 
 For any further inquiries or information, please contact:
 - Christopher Hunt Jr.
-- LinkedIn: [Christopher Hunt Jr.](https://www.linkedin.com/in/christopher-hunt-jr)
-- Email: cjhunt592.1@gmail.com
+- LinkedIn Profile: [Christopher Hunt Jr. on LinkedIn](https://www.linkedin.com/in/christopher-hunt-jr)
+- Email Address: cjhunt592.1@gmail.com
