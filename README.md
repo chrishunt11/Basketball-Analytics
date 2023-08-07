@@ -148,7 +148,7 @@ Further analysis included countplots illustrating 3-point percentage over the ye
 
 
 
-### ** Suggested Model:**
+### **Suggested Model:**
 
 Among the evaluated models, the 'Tuned Logistic Regression Model' performed the best, yielding high precision and recall scores for both wins and losses.
 
