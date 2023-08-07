@@ -44,16 +44,17 @@ The bottom 5 three pointers attempted seasons are as follows:
   - 1989:     `7,724`
   - 1990:     `7,826`
 
-![top-5-teams-3pts-game](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/dd386009-973c-4751-895e-8852b33d1b35)
+![avg-3ptm-top-vs-bot](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/e21ff5fd-0f3e-4699-aadb-1728f1436233)
 
 
 **The visual aid provided shows a clear trend:**
-  - The top twelve teams in the league with the most home wins, 
-    - Have significantly increased their 3-point shot attempts per game.
-- This strategic change highlights their ability to adapt to changing competitive dynamics.
-- By incorporating more long-distance shots into their strategy, these teams are trying to:
-  - Take advantage of scoring opportunities 
-  - Improve their overall on-court performance.
+- Among the upper echelon of the league's standings, top teams distinguished by their superior home win records have conspicuously raised their average number of successful 3-pointers made per game.
+
+- This strategic transition serves as a testament to their adeptness in adapting to evolving competitive landscapes.
+
+- By incorporating an amplified emphasis on long-range shots into their gameplay strategy, these teams are strategically positioning themselves to:
+  - Exploit scoring opportunities 
+  - Enhance their overall on-court performance.
 
 
 #### Explanitory Data Analysis:
