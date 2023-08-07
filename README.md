@@ -12,13 +12,11 @@ The primary objective of NBA teams is to optimize their performance by winning a
 
 ### Data Source:
 
-NBA Database: https://www.kaggle.com/datasets/wyattowalsh/basketball
-
-In this dataset there are 65698 rows and 55 features.
+[NBA Database](https://www.kaggle.com/datasets/wyattowalsh/basketball): 65,698 rows and 55 features.
 
 ### Data Dictionary
 
-https://docs.google.com/document/d/1GjDnyGpwIL14WoHZABzBqnB7sjCTNyHZxJRKZSyqwlg/edit?usp=sharing
+Access the [Data Dictionary](https://docs.google.com/document/d/1GjDnyGpwIL14WoHZABzBqnB7sjCTNyHZxJRKZSyqwlg/edit?usp=sharing) for comprehensive insights.
 
 ###### **To prepare the data, a cleaning process was performed, followed by Exploratory Data Analysis (EDA).**
 
@@ -159,3 +157,4 @@ It's essential to acknowledge the limitations of this data, such as the influenc
 
 - Christopher Hunt Jr.
 - cjhunt592.1@gmail.com
+- LinkedIn: [christopherhuntjr](https://www.linkedin.com/in/christopherhuntjr)
