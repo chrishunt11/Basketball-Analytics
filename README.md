@@ -108,7 +108,7 @@ Further analysis included countplots illustrating 3-point percentage over the ye
         macro avg:    .76    /   .76   /   .76
         weighted avg: .77    /   .77   /   .77
 
-  - Default Logisitic Regression Model (Testing Set):
+  - Default Logistic Regression Model (Testing Set):
 
                    precision / recall / f1-score
         0 (loss):     .82    /   .80   /   .81
@@ -117,7 +117,7 @@ Further analysis included countplots illustrating 3-point percentage over the ye
         macro avg:    .84    /   .84   /   .84
         weighted avg: .85    /   .85   /   .85
 
-  - Tuned Logisitic Regression Model (Testing Set):
+  - Tuned Logistic Regression Model (Testing Set):
 
                    precision / recall / f1-score
         0 (loss):     .82    /   .80   /   .81
