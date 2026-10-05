@@ -1,169 +1,189 @@
-![nba-logo](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/585476e4-7dfd-4f3c-a530-c7ba8c322ee1)
+# NBA Game Prediction & Model Risk Analysis
 
-# NBA Home Games Analysis
-## Unveiling Patterns in Home Wins
+**Author:** Christopher Hunt Jr.
 
-**Author**: Christopher Hunt Jr.
+## Project Overview
 
+This project predicts whether the home team will win an NBA game using historical team performance from games that occurred before the game being predicted.
 
-### Business Challenge:
+This is a rebuilt version of an earlier NBA machine learning project. While reviewing the original model, I found that it used statistics from the same game it was trying to predict. This created data leakage and made the original accuracy of about 85% misleading.
 
-The primary objective of NBA teams is to optimize their performance by winning as many games as possible. However, navigating the constantly evolving game landscape poses a challenge in determining the most efficient approach. Decisions like increasing 3-point attempts or prioritizing shot quality are pivotal in achieving success. This project aims to address these questions to enhance team performance.
+I rebuilt the project to remove that leakage, use a time-based validation approach, compare multiple machine learning models, and analyze how the final model performed on newer data.
 
-### Data Source:
+## Data Source
 
-[NBA Database](https://www.kaggle.com/datasets/wyattowalsh/basketball): 65,698 rows and 55 features.
+[NBA Database](https://www.kaggle.com/datasets/wyattowalsh/basketball)
 
-### Data Dictionary
+The original dataset contains **65,698 NBA games**. Because several statistics had large amounts of missing data in older seasons, I limited the modeling period to games from **1995 onward** and included regular-season and playoff games.
 
-Access the [Data Dictionary](https://docs.google.com/document/d/1GjDnyGpwIL14WoHZABzBqnB7sjCTNyHZxJRKZSyqwlg/edit?usp=sharing) for comprehensive insights.
+After cleaning the data and creating the historical features, the final modeling dataset contained **34,410 games**.
 
-###### **To prepare the data, a cleaning process was performed, followed by Exploratory Data Analysis (EDA).**
+## Preventing Data Leakage
 
-#### Exploratory Data Analysis:
+Preventing data leakage was one of the most important parts of rebuilding this project.
 
+Instead of using statistics from the game being predicted, each team's features were calculated using its **previous 10 games**.
 
-- During EDA, histograms and countplots were visualized for all columns, providing insights into Home game statistics. 
-- Notably, the top 5 seasons with the highest attempted three-pointers were observed, as well as the bottom 5 seasons with the lowest attempted three-pointers.
+The rolling calculations were shifted by one game so the current game's statistics could not be included in its own prediction.
 
-![3pt-year](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/012551ae-aa68-40a7-b848-3c11bc7ec00d)
+Features included:
 
-The top 5 three pointers attempted seasons are as follows:
+- Recent win percentage
+- Average points
+- Field goal percentage
+- Three-point percentage
+- Free throw percentage
+- Rebounds
+- Assists
+- Turnovers
 
-  - 2021:    `56,967`
-  - 2022:    `46,646`
-  - 2019:    `41,917`
-  - 2018:    `39,849`
-  - 2017:    `37,685`
-  
-The bottom 5 three pointers attempted seasons are as follows:
+## Train, Validation, and Test Split
 
-  - 1986:     `3,397`
-  - 1987:     `4,526`
-  - 1988:     `5,433`
-  - 1989:     `7,724`
-  - 1990:     `7,826`
+Because NBA games happen over time, I used a chronological split instead of randomly splitting the data.
 
-![avg-3ptm-top-vs-bot](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/e21ff5fd-0f3e-4699-aadb-1728f1436233)
+- **Training:** 1995–2018
+- **Validation:** 2019–2020
+- **Test:** 2021–2023
 
+The test period was kept separate while selecting the model, tuning hyperparameters, and choosing the classification threshold.
 
-**The visual aid provided shows a clear trend:**
-- Among the upper echelon of the league's standings, top teams distinguished by their superior home win records have conspicuously raised their average number of successful 3-pointers made per game.
+## Models Compared
 
-- This strategic transition serves as a testament to their adeptness in adapting to evolving competitive landscapes.
+I compared four machine learning approaches:
 
-- By incorporating an amplified emphasis on long-range shots into their gameplay strategy, these teams are strategically positioning themselves to:
-  - Exploit scoring opportunities 
-  - Enhance their overall on-court performance.
+- Logistic Regression
+- Random Forest
+- XGBoost
+- Neural Network
 
+The tuned **XGBoost** model performed best on the validation data and was selected as the final model.
 
-#### Explanitory Data Analysis:
+Final XGBoost configuration:
 
-Further analysis included countplots illustrating 3-point percentage over the years, 3-pointers attempted over the years, and the distribution of points from field goals made. These graphs shed light on shot trends and their effectiveness over time.
+- Maximum tree depth: 4
+- Learning rate: 0.03
+- Number of estimators: 200
+- Classification threshold: 0.55
 
-![3pt-per-year](https://github.com/chrishunt11/Prediction-Of-Home-Wins/assets/123383359/ee440553-67a6-4bb5-887f-a2ce63687875)
+## Model Results
 
+### Validation
 
-### Machine Learning Leveraging Multiple Models:
-  - KNN Model (default/tuned)
-  - Decision Tree Classifier (default/tuned)
-  - Logisitic Regression (default/tuned)
-  - XGBoost
-  - LightGMB
+- **Accuracy:** 63.7%
+- **ROC-AUC:** 0.668
+- **Home-team baseline:** 55.6%
 
-## Evaluated Models & Results:
-  - Default KNN Model (Testing Set):
-    
-                   precision / recall / f1-score
-        0 (loss):     .76    /   .69   /   .72
-        1 (win):      .80    /   .85   /   .82
-        accuracy:                      /   .78
-        macro avg:    .78    /   .77   /   .77
-        weighted avg: .78    /   .78   /   .78
-  
-  - Tuned KNN Model (Testing Set):
-    
-                   precision / recall / f1-score
-        0 (loss):     .81    /   .70   /   .75
-        1 (win):      .81    /   .89   /   .85
-        accuracy:                      /   .81
-        macro avg:    .81    /   .79   /   .80
-        weighted avg: .81    /   .81   /   .81
+### Untouched Test Set
 
-  - Default Decision Tree Classifier Model (Testing Set):
-    
-                    precision / recall / f1-score
-        0 (loss):     .68    /   .68   /   .68
-        1 (win):      .78    /   .78   /   .78
-        accuracy:                      /   .74
-        macro avg:    .73    /   .73   /   .73
-        weighted avg: .74    /   .74   /   .74
+- **Accuracy:** 59.9%
+- **ROC-AUC:** 0.622
+- **Home-team baseline:** 56.0%
+- **Home-win recall:** 73%
+- **Away-win recall:** 44%
 
-  - Tuned Decision Tree Classifier Model (Testing Set):
-    
-                   precision / recall / f1-score
-        0 (loss):     .72    /   .69   /   .71
-        1 (win):      .80    /   .82   /   .81
-        accuracy:                      /   .77
-        macro avg:    .76    /   .76   /   .76
-        weighted avg: .77    /   .77   /   .77
+The model remained more accurate than simply predicting the home team to win every game, but performance declined from the validation period to the newer test period.
 
-  - Default Logistic Regression Model (Testing Set):
+Instead of changing the model after seeing the test results, I treated the decline as a model-risk finding and investigated it further.
 
-                   precision / recall / f1-score
-        0 (loss):     .82    /   .80   /   .81
-        1 (win):      .86    /   .88   /   .87
-        accuracy:                      /   .85
-        macro avg:    .84    /   .84   /   .84
-        weighted avg: .85    /   .85   /   .85
+## Performance Over Time
 
-  - Tuned Logistic Regression Model (Testing Set):
+| Year | Games | Home Win Rate | Model Accuracy | ROC-AUC |
+|---|---:|---:|---:|---:|
+| 2021 | 1,625 | 54.6% | 60.5% | 0.635 |
+| 2022 | 1,336 | 57.5% | 60.3% | 0.612 |
+| 2023 | 768 | 56.1% | 58.1% | 0.612 |
 
-                   precision / recall / f1-score
-        0 (loss):     .82    /   .80   /   .81
-        1 (win):      .86    /   .88   /   .87
-        accuracy:                      /   .85
-        macro avg:    .84    /   .84   /   .84
-        weighted avg: .85    /   .85   /   .85
+The model remained above the home-team baseline during each test year, but the advantage became smaller over time.
 
+## Model Risk & Validation
 
-  - XGBoost Model (Testing Set):
-    
-                   precision / recall / f1-score
-        0 (loss):     .82    /   .78   /   .80
-        1 (win):      .85    /   .88   /   .87
-        accuracy:                      /   .84
-        macro avg:    .84    /   .83   /   .83
-        weighted avg: .84    /   .84   /   .84
+After evaluating the final model, I looked beyond accuracy to understand where the model could become unreliable.
 
-  - LightGMB Model (Testing Set):
+### Feature Drift
 
-                   precision / recall / f1-score
-        0 (loss):     .82    /   .78   /   .80
-        1 (win):      .86    /   .88   /   .87
-        accuracy:                      /   .84
-        macro avg:    .84    /   .83   /   .83
-        weighted avg: .84    /   .84   /   .84
+Several features changed between the training and test periods.
 
+The largest changes were in scoring and assists. Home and away scoring features had KS statistics above **0.71**, showing a large difference between their training and test distributions.
 
+This does not prove that feature drift caused the performance decline, but it shows that newer NBA games were different from much of the data the model learned from.
 
+### Probability Calibration
 
+The model's Brier score increased from:
 
-### **Suggested Model:**
+- **Validation:** 0.2279
+- **Test:** 0.2383
 
-Among the evaluated models, the 'Tuned Logistic Regression Model' performed the best, yielding high precision and recall scores for both wins and losses.
+Because a lower Brier score is better, the model's predicted probabilities became less reliable on newer data.
 
-## **Recommendations**:
+The model also showed signs of being overconfident at higher predicted home-win probabilities.
 
-Based on the analysis, teams are encouraged to consider increasing the number of 3-point attempts to enhance their total points, as the 3-point percentage has been increasing over time. Moreover, prioritizing field goals can lead to improved overall point production.
+### Error Analysis
 
-## Limitations & Next Steps:
+The model was correct on:
 
-It's essential to acknowledge the limitations of this data, such as the influence of game pace and playstyle on team performance. For future projects, exploring defensive statistics and their impact on winning games could offer valuable insights.
+- **62.1%** of predicted home wins
+- **55.7%** of predicted away wins
 
-#### Contact information:
+There were also **307 incorrect predictions** where the model was at least 70% confident. These represented **20.54% of all model errors**.
 
-For any further inquiries or information, please contact:
-- Christopher Hunt Jr.
-- LinkedIn Profile: [Christopher Hunt Jr. on LinkedIn](https://www.linkedin.com/in/christopher-hunt-jr)
-- Email Address: cjhunt592.1@gmail.com
+This showed that a high confidence score did not always mean the prediction was reliable.
+
+## Key Model Risks
+
+The main risks identified during the project were:
+
+- Data leakage
+- Performance drift
+- Feature drift
+- Probability calibration
+- High-confidence errors
+- Different performance between home and away predictions
+- Overfitting
+- Historical data becoming less representative of newer NBA games
+
+A monitoring plan was also created to track model accuracy, ROC-AUC, feature drift, calibration, class performance, high-confidence errors, and data quality if the model were deployed.
+
+## Limitations
+
+The model only uses historical team performance. It does not include several factors that could affect the outcome of a game, including:
+
+- Injuries
+- Starting lineups
+- Player availability
+- Rest days
+- Travel
+- Roster changes
+- Betting-market information
+
+The 10-game rolling features also continue across season boundaries, meaning the first few games of a new season can include information from the previous season.
+
+The training data covers many years of NBA history, and the drift analysis showed that the way the game is played has changed over time.
+
+The same validation period was also used for model tuning and threshold selection. A future version could use multiple time-based validation periods.
+
+## Key Takeaway
+
+The biggest lesson from this project was that higher model accuracy does not automatically mean a better model.
+
+The original version appeared to achieve about **85% accuracy**, but that performance was partly caused by data leakage.
+
+After rebuilding the feature pipeline and testing the model on future data, the final model achieved **59.9% accuracy compared with a 56.0% baseline**.
+
+The accuracy is lower, but the evaluation is much more realistic. The project also shows how data leakage, performance drift, feature drift, calibration, and model limitations can affect whether a machine learning model should actually be trusted.
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- SciPy
+- Google Colab
+
+## Contact
+
+**Christopher Hunt Jr.**
+
+[LinkedIn](https://www.linkedin.com/in/christopher-hunt-jr)
